@@ -17,20 +17,107 @@
         <h1>ProxyU</h1>
       </header>
 
-
       <nav><a href="index.html">description</a>
         <a href="proposal.html">proposal</a>
         <a href="showcase.html">showcase</a>
-        <a href="documentation.html" class="active">documentation</a>
+        <a href="documentation.html" class="active">prototype documentation</a>
       </nav>
       <article>
-<h2>The Process</h2>
-        <h3>coding</h3>
+        <h2>The Process</h2>
+        <h3>components</h3>
+        <div class="text_block">
+          <img src="images/components.jpeg" alt="components" width="90%"><br><br>
+          <p><b>Items Listed</b></p> <br>
+          <ul>
+            <li>Lithium Battery</li>
+            <li>NeoPixel Jewel</li>
+            <li>Particle Argon</li>
+            <li>Photoresistor</li>
+            <li>Tilt Ball Switch</li>
+          </ul>
+        </div>
 
+        <h3>components break down</h3>
         <div class="text_block">
 
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <b>Lithium Battery</b><br><br>
+          <img src="https://cdn-shop.adafruit.com/1200x900/4236-03.jpg" alt="batt" width="60%">
+          <p>Battery power for the device</p><br>
+
+          <b>NeoPixel Jewel</b><br><br>
+          <img src="https://cdn-shop.adafruit.com/1200x900/2226-04.jpg" alt="pixel" width="60%">
+
+          <p>Lighting component with 7 different "pixels" to individually program. Each of the pixels will change colors according to the sensor/function they are assigned to</p>
+          </p><br>
+
+          <b>Particle Argon: Wi-fi + Bluetooth</b><br><br>
+          <img src="https://www.mouser.ca/images/marketingid/2018/img/118526690.png?v=051820.0952" alt="argon" width="60%">
+          <p>A development kit with Wi-Fi and Bluetooth radios for building connected projects and products.
+            Has access to geolocation of the device through the Google Maps Geolocation API.</p>
+          <br>
+
+          <b>Photoresistor</b><br>
+          <img src="https://www.senbasensor.com/uploads/image/20190711/10/huge-diam-20mm-homemade-photoresistor-20series-for-led-dimmer.jpg" alt="ptr" width="60%">
+
+          <p>A sensor to capture the light that shines on it. The value will determine the brightness of the lighting component (NeoPixel).</p>
+          <br>
+
+          <b>Tilt Ball Switch</b><br>
+          <img src="https://ae01.alicdn.com/kf/HTB1CFIdadfvK1RjSspfq6zzXFXa6/100PCS-SW520D-Vibration-Switch-5-2-11-5-Ball-Switch-Angle-Switch-Tilt-Switch-Free-Shipping.jpg_Q90.jpg_.webp" alt="ptr" width="60%">
+
+          <p>A sensor to detect orientation or inclination. The action will trigger a signal to the other party's device.</p>
+          <br>
+
+
+        </div>
+
+        <h3>interactions map</h3>
+        <div class="text_block">
+          TBD
+        </div>
+
+        <h3>diagram</h3>
+        <div class="text_block">
+          <img src="images/diagram.png" alt="diagram" width="90%"><br><br>
+
+        </div>
+
+        <h3>physical build</h3>
+        <div class="text_block">
+          TBD
+        </div>
+
+        <h3>coding</h3>
+        <div class="text_block">
+          <p><b>Program used:</b> Visual Studio Code</p>
+          <p><b>Language:</b> C++</p> <br>
+          <img src="images/ss1.png" alt="components" width="100%"><br>
+          <p>project + small summary</p>
+          <br>
+          <img src="images/ss2.png" alt="components" width="100%"><br>
+          <p>libraries used</p>
+          <br>
+          <img src="images/ss3.png" alt="components" width="100%"><br>
+          <p>calculation of the distance between two geolocations</p>
+          <br>
+          <img src="images/ss4.png" alt="components" width="100%"><br>
+          <p>neopixel setup/variables + defining pins/values</p>
+          <br>
+          <img src="images/ss5.png" alt="components" width="100%"><br>
+          <p>setup</p>
+          <br>
+          <img src="images/ss6.png" alt="components" width="100%"><br>
+          <p>function to blink the jewel in response to the other user</p>
+          <br>
+          <img src="images/ss7.png" alt="components" width="100%"><br>
+          <p> adjust jewel's brigthness depending on the value of the photoresistor</p>
+          <br>
+          <img src="images/ss8.png" alt="components" width="100%"><br>
+          <p> pays attention the tilt sensor to send information to the cloud </p><br>
+
+          <img src="images/ss9.png" alt="components" width="100%"><br>
+          <p> lights the jewel according to the distance calculated between the two points</p>
+          <br>
 
         </div>
 
