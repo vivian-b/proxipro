@@ -110,11 +110,7 @@ article {
 
 .text_block{
   background-color: white;
-<<<<<<< HEAD
   max-width: 50vw;
-=======
-  max-width: 65vw;
->>>>>>> 167150c5536ebce9d090d3d4db7511bb0b64887b
   justify-content: flex-end;
   color: #4377BC;
   font-size: 22px;
