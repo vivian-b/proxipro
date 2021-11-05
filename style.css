@@ -78,7 +78,11 @@ nav a:link {
 }
 
 a:link {
+<<<<<<< HEAD
   color:white;
+=======
+  color:#3F99D4;
+>>>>>>> 167150c5536ebce9d090d3d4db7511bb0b64887b
   font-family: courier ,monospace;
   text-transform: uppercase;
   font-size: 18px;
@@ -106,7 +110,11 @@ article {
 
 .text_block{
   background-color: white;
+<<<<<<< HEAD
   max-width: 50vw;
+=======
+  max-width: 65vw;
+>>>>>>> 167150c5536ebce9d090d3d4db7511bb0b64887b
   justify-content: flex-end;
   color: #4377BC;
   font-size: 22px;
