@@ -45,6 +45,8 @@
             <li>Particle Argon</li>
             <li>Photoresistor</li>
             <li>Tilt Ball Switch</li>
+            <li>Piezzo Buzzer</li>
+
           </ul>
         </div>
 
@@ -78,6 +80,11 @@
 
           <p>A sensor to detect orientation or inclination. The action will trigger a signal to the other party's device.</p>
           <br>
+
+          <b>Piezzo Buzzer</b><br>
+          <p>device used to produce a tone/sound.</p>
+
+
         </div>
 
         <h3>diagram</h3>
@@ -96,39 +103,6 @@
           <img src="images/ProcessAlbum/proto3.gif" alt="proto3" width="90%"><p> tilt sensor test</p>
         </div>
 
-        <h3>initial coding</h3>
-        <div class="text_block">
-          <p><b>Program used:</b> Visual Studio Code</p>
-          <p><b>Language:</b> C++</p> <br>
-          <img src="images/ss1.png" alt="components" width="100%"><br>
-          <p>project + small summary</p>
-          <br>
-          <img src="images/ss2.png" alt="components" width="100%"><br>
-          <p>libraries used</p>
-          <br>
-          <img src="images/ss3.png" alt="components" width="100%"><br>
-          <p>calculation of the distance between two geolocations</p>
-          <br>
-          <img src="images/ss4.png" alt="components" width="100%"><br>
-          <p>neopixel setup/variables + defining pins/values</p>
-          <br>
-          <img src="images/ss5.png" alt="components" width="100%"><br>
-          <p>setup</p>
-          <br>
-          <img src="images/ss6.png" alt="components" width="100%"><br>
-          <p>function to blink the jewel in response to the other user</p>
-          <br>
-          <img src="images/ss7.png" alt="components" width="100%"><br>
-          <p> adjust jewel's brigthness depending on the value of the photoresistor</p>
-          <br>
-          <img src="images/ss8.png" alt="components" width="100%"><br>
-          <p> pays attention the tilt sensor to send information to the cloud </p><br>
-
-          <img src="images/ss9.png" alt="components" width="100%"><br>
-          <p> lights the jewel according to the distance calculated between the two points</p>
-          <br>
-
-        </div>
  <h3>revised coding</h3>
  <div class="text_block">
    <img src="images/revised/ss7.png" alt="" width="90%"><br>
@@ -148,10 +122,12 @@
  <h3>to be implemented</h3>
  <div class="text_block">
   <ul>
-    <li>matching location: still need to implement location differences based on geolocation</li>
-    <li>matching state: if Alpha is tilted and Beta is tilted -> react </li>
-    <li>all matching states: if every sensor matches between Alpha and Beta -> special reaction </li>
-    <li>upgrade signals: more than a simple change of color/lighting up -> sound and light effects when other is online</li>
+    <li><b>matching location: </b>still need to implement location differences based on geolocation</li>
+    <li><b>matching state:</b> if Alpha is tilted and Beta is tilted -> react </li>
+    <li><b>all matching states:</b> if every sensor matches between Alpha and Beta -> special reaction </li>
+    <li><b>upgrade signals:</b> more than a simple change of color/lighting up -> sound and light effects when other is online</li>
+    <li><b>implementing sound:</b> beep beep</li>
+
   </ul>
 
  </div>
@@ -165,6 +141,40 @@
           <img src="images/ProcessAlbum/IMG_2853.jpeg" alt="" width="40%"><br>
 
         </div>
+
+                <h3>initial coding</h3>
+                <div class="text_block">
+                  <p><b>Program used:</b> Visual Studio Code</p>
+                  <p><b>Language:</b> C++</p> <br>
+                  <img src="images/ss1.png" alt="components" width="100%"><br>
+                  <p>project + small summary</p>
+                  <br>
+                  <img src="images/ss2.png" alt="components" width="100%"><br>
+                  <p>libraries used</p>
+                  <br>
+                  <img src="images/ss3.png" alt="components" width="100%"><br>
+                  <p>calculation of the distance between two geolocations</p>
+                  <br>
+                  <img src="images/ss4.png" alt="components" width="100%"><br>
+                  <p>neopixel setup/variables + defining pins/values</p>
+                  <br>
+                  <img src="images/ss5.png" alt="components" width="100%"><br>
+                  <p>setup</p>
+                  <br>
+                  <img src="images/ss6.png" alt="components" width="100%"><br>
+                  <p>function to blink the jewel in response to the other user</p>
+                  <br>
+                  <img src="images/ss7.png" alt="components" width="100%"><br>
+                  <p> adjust jewel's brigthness depending on the value of the photoresistor</p>
+                  <br>
+                  <img src="images/ss8.png" alt="components" width="100%"><br>
+                  <p> pays attention the tilt sensor to send information to the cloud </p><br>
+
+                  <img src="images/ss9.png" alt="components" width="100%"><br>
+                  <p> lights the jewel according to the distance calculated between the two points</p>
+                  <br>
+
+                </div>
 
       </article>
     </div>
