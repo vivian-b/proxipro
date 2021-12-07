@@ -141,3 +141,15 @@ footer {
   width: 100%;
   color:white;
 }
+
+.nav2 {
+  background-color: #4377BC;
+}
+.activeNav{
+  background-color: #3262a1;
+
+}
+
+.nav2:hover {
+  background-color: #264d8c;
+}
